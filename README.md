@@ -28,6 +28,7 @@ Launch Quick Open with <kbd>⌘</kbd>+<kbd>P</kbd> and enter
 ext install 101header
 ```
 
+
 ## Usage
 
 ### Insert a header
