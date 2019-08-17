@@ -1,0 +1,69 @@
+{
+  "name": "101header2019",
+  "displayName": "101 Header 2019",
+  "description": "101 header for VSCode : www.le-101.fr",
+  "version": "0.0.2",
+  "publisher": "frfrey",
+  "icon": "101.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Etheram68/Header101-Vscode/"
+  },
+  "bugs": {
+    "url": "https://github.com/Etheram68/Header101-Vscode/issues"
+  },
+  "homepage": "https://github.com/Etheram68/Header101-Vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.37.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "configuration": {
+      "properties": {
+        "101header.username": {
+          "type": "string",
+          "description": "Username to use in 101 headers"
+        },
+        "101header.email": {
+          "type": "string",
+          "description": "Email address to use in 101 headers"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "101header.insertHeader",
+        "title": "Insert 101 header",
+        "when": "editorTextFocus"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "101header.insertHeader",
+        "key": "ctrl+alt+h",
+        "mac": "cmd+alt+h",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.45",
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
