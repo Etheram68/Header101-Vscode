@@ -2,7 +2,7 @@
   "name": "101header2019",
   "displayName": "101 Header 2019",
   "description": "101 header for VSCode : www.le-101.fr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "frfrey",
   "icon": "101.png",
   "repository": {
@@ -61,7 +61,7 @@
   "devDependencies": {
     "@types/node": "^6.0.45",
     "typescript": "^2.0.3",
-    "vscode": "^1.0.0"
+    "vscode": "^1.1.36"
   },
   "dependencies": {
     "moment": "^2.24.0"

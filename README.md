@@ -14,8 +14,8 @@ This extension provides the 101 header integration in VS Code.
 *                                                 +:+:+   +:    +:  +:+:+    *
 *   By: frfrey <frfrey@student.le-101.fr>      +:+   +:    +:    +:+         *
 *                                                 #+#   #+    #+    #+#      *
-*   Created: 2017/11/23 10:31:13 by frfrey     #+#   ##    ##    #+#         *
-*   Updated: 2017/11/23 15:43:25 by frfrey    ###    #+. /#+    ###.fr       *
+*   Created: 2019/08/19 10:31:13 by frfrey     #+#   ##    ##    #+#         *
+*   Updated: 2019/08/19 15:43:25 by frfrey    ###    #+. /#+    ###.fr       *
 *                                                         /                  *
 *                                                        /                   *
 * ************************************************************************** *

@@ -1,13 +1,4 @@
 
-      /*#######.
-     ########",#:
-   #########',##".
-  ##'##'## .##',##.
-   ## ## ## # ##",#.
-    ## ## ## ## ##'
-     ## ## ## :##
-      ## ## ##*/
-
 const hashes = ['# ', ' #']
 const slashes = ['/* ', ' */']
 const semicolons = [';; ', ' ;;']
@@ -19,6 +10,7 @@ export const languageDemiliters: { [lang: string]: string[] | undefined } = {
   'c': slashes,
   'coffeescript': hashes,
   'cpp': slashes,
+  'csharp' : slashes,
   'css': slashes,
   'dockerfile': hashes,
   'fsharp': parens,
@@ -52,5 +44,5 @@ export const languageDemiliters: { [lang: string]: string[] | undefined } = {
   'typescript': slashes,
   'typescriptreact': slashes,
   'xsl': slashes,
-  'yaml': hashes
+  'yaml': hashes,
 }
