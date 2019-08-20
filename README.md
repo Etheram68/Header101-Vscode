@@ -57,6 +57,14 @@ To override these values, specify these properties in *User Settings* :
 To report a bug or ask for a feature, please open a [Github issue](https://github.com/Etheram68/Header101-Vscode/issues).
 
 
+## Release Notes
+
+### 0.1.1
+Add support for language C#
+
+### 0.1.0
+Initial release of Header VsCode
+
 ## License
 
 MIT
