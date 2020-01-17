@@ -7,18 +7,18 @@
 This extension provides the 101 header integration in VS Code.
 
 ```bash
-* ************************************************************************** *
-*                                                          LE - /            *
-*                                                              /             *
-*   get_next_line.c                                  .::    .:/ .      .::   *
-*                                                 +:+:+   +:    +:  +:+:+    *
-*   By: frfrey <frfrey@student.le-101.fr>      +:+   +:    +:    +:+         *
-*                                                 #+#   #+    #+    #+#      *
-*   Created: 2019/08/19 10:31:13 by frfrey     #+#   ##    ##    #+#         *
-*   Updated: 2019/08/19 15:43:25 by frfrey    ###    #+. /#+    ###.fr       *
-*                                                         /                  *
-*                                                        /                   *
-* ************************************************************************** *
+# **************************************************************************** #
+#                                                           LE - /             #
+#                                                               /              #
+#    test.s                                           .::    .:/ .      .::    #
+#                                                  +:+:+   +:    +:  +:+:+     #
+#    By: frfrey <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
+#                                                  #+#   #+    #+    #+#       #
+#    Created: 2020/01/17 15:31:37 by frfrey       #+#   ##    ##    #+#        #
+#    Updated: 2020/01/17 15:31:48 by frfrey      ###    #+. /#+    ###.fr      #
+#                                                          /                   #
+#                                                         /                    #
+# **************************************************************************** #
 ```
 
 ## Install
@@ -58,6 +58,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 
 ## Release Notes
+
+### 0.1.2
+Add support for ASM language
 
 ### 0.1.1
 Add support for language C#
