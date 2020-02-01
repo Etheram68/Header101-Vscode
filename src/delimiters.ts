@@ -4,8 +4,8 @@ const slashes = ['/* ', ' */']
 const semicolons = [';; ', ' ;;']
 const parens = ['(* ', ' *)']
 const dashes = ['-- ', ' --']
+const chevrons = ['<!--', ' -->']
 const percents = ['%% ', ' %%']
-const chev = ['<!-- ', ' -->']
 
 export const languageDemiliters: { [lang: string]: string[] | undefined } = {
   'c': slashes,
@@ -33,7 +33,7 @@ export const languageDemiliters: { [lang: string]: string[] | undefined } = {
   'perl': hashes,
   'perl6': hashes,
   'php': hashes,
-  'html': chev,
+  'html': chevrons,
   'plaintext': hashes,
   'powershell': hashes,
   'python': hashes,

@@ -36,6 +36,12 @@ const getTemplate = (languageId: string) => {
   const width = left.length
 
   // Replace all delimiters with ones for current language
+  if (languageId == 'html')
+  {
+    return genericTemplate
+    .replace(new RegExp(`^(.{${width + 1}})(.*)(.{${width}})$`, 'gm'),
+    left + ' ' + '$2' + right)
+  }
   return genericTemplate
     .replace(new RegExp(`^(.{${width}})(.*)(.{${width}})$`, 'gm'),
     left + '$2' + right)
