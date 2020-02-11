@@ -40,8 +40,8 @@ Header is automatically updated on save.
 
 Default values for **username** and **email** are imported from environment variables.
 
-Default values for **header** is 101 you can modify in setting to 101header.version: 101 or 42 or 42 Lyon
-use "101header.version": 42Paris or 42Lyon or 101
+Default values for **header** is 101 you can modify in setting
+use "101header.version":
 
 
 ```Name avaible for header
