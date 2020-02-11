@@ -1,5 +1,13 @@
 import moment = require('moment')
 import { languageDemiliters } from './delimiters'
+import { version } from 'vscode';
+import { constants } from 'os';
+import vscode = require('vscode')
+
+import {
+  TextDocument
+} from 'vscode'
+import { globalAgent } from 'http';
 
 export type HeaderInfo = {
   filename: string,
@@ -10,10 +18,14 @@ export type HeaderInfo = {
   updatedAt: moment.Moment
 }
 
+const getCurrentVersion = () =>
+  vscode.workspace.getConfiguration()
+    .get('101header.version') || process.env['VERSION'] || 'aviscogl'
+
 /**
  * Template where each field name is prefixed by $ and is padded with _
  */
-const genericTemplate = `
+const genericTemplate42 = `
 ********************************************************************************
 *                                                                              *
 *                                                         :::      ::::::::    *
@@ -25,15 +37,39 @@ const genericTemplate = `
 *    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########.fr        *
 *                                                                              *
 ********************************************************************************
+
 `.substring(1);
 
+const genericTemplate101 = `
+********************************************************************************
+*                                                           LE - /             *
+*                                                               /              *
+*    $FILENAME__________________________________      .::    .:/ .      .::    *
+*                                                  +:+:+   +:    +:  +:+:+     *
+*    By: $AUTHOR________________________________    +:+   +:    +:    +:+      *
+*                                                  #+#   #+    #+    #+#       *
+*    Created: $CREATEDAT_________ by $CREATEDBY_  #+#   ##    ##    #+#        *
+*    Updated: $UPDATEDAT_________ by $UPDATEDBY_ ###    #+. /#+    ###.fr      *
+*                                                          /                   *
+*                                                         /                    *
+********************************************************************************
+`.substring(1);
+
+
+if (getCurrentVersion() == '42')
+{
+    var genericTemplate = genericTemplate42;
+}
+else
+{
+    var genericTemplate = genericTemplate101;
+}
 /**
  * Get specific header template for languageId
  */
 const getTemplate = (languageId: string) => {
   const [left, right] = languageDemiliters[languageId]
   const width = left.length
-
   // Replace all delimiters with ones for current language
   if (languageId == 'html')
   {

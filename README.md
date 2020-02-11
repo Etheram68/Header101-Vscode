@@ -26,7 +26,6 @@ Launch Quick Open with <kbd>⌘</kbd>+<kbd>P</kbd> and enter
 ```
 ext install 101header
 ```
-###For use header of 101 take version 0.1.4
 
 ## Usage
 
@@ -41,12 +40,15 @@ Header is automatically updated on save.
 
 Default values for **username** and **email** are imported from environment variables.
 
+Default values for **header** is 101 you can modify in setting to 101header.version: 101 or 42
+
 To override these values, specify these properties in *User Settings* :
 
 ```ts
 {
   "101header.username": string,
-  "101header.email": string
+  "101header.email": string,
+  "101header.version": string
 }
 ```
 
@@ -58,8 +60,14 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
-### 0.2.0
-Add new Header for 42
+### 0.2.3
+You can choose your header version in Setting extension Version
+
+### 0.2.2
+Add new skin for header 42
+
+### 0.2.1
+Prepare Add new Header for 42 Add new message
 
 ### 0.1.3 / 0.1.4
 Add language html, modify header for php
