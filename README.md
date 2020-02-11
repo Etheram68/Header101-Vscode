@@ -14,8 +14,8 @@ This extension provides the 101 header integration in VS Code.
 #                                                     +:+ +:+         +:+      #
 #    By: frfrey <frfrey@student.le-101.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/11 15:13:55 by frfrey            #+#    #+#              #
-#    Updated: 2020/02/11 15:13:56 by frfrey           ###   ########.fr        #
+#    Created: 2020/02/11 17:29:23 by frfrey            #+#    #+#              #
+#    Updated: 2020/02/11 17:29:24 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 ```
@@ -40,7 +40,20 @@ Header is automatically updated on save.
 
 Default values for **username** and **email** are imported from environment variables.
 
-Default values for **header** is 101 you can modify in setting to 101header.version: 101 or 42
+Default values for **header** is 101 you can modify in setting to 101header.version: 101 or 42 or 42 Lyon
+use "101header.version": 42Paris or 42Lyon or 101
+
+
+```Name avaible for header
+  {
+    Lyon :
+          lyon, Lyon, LYON, 42lyon, 42Lyon, 42LYON, 42 Lyon, 42 lyon, 42 LYON
+    Paris:
+          paris, Paris, PARIS, 42paris, 42Paris, 42PARIS, 42 Paris, 42 paris, 42 PARIS
+    Default:
+          101
+  }
+```
 
 To override these values, specify these properties in *User Settings* :
 
@@ -62,6 +75,8 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ### 0.2.3
 You can choose your header version in Setting extension Version
+Add header for Paris and New header for Lyon
+You can choice header
 
 ### 0.2.2
 Add new skin for header 42

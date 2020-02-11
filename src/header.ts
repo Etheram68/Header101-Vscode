@@ -34,7 +34,7 @@ const genericTemplate42 = `
 *    By: $AUTHOR________________________________    +#+  +:+       +#+         *
 *                                                 +#+#+#+#+#+   +#+            *
 *    Created: $CREATEDAT_________ by $CREATEDBY_       #+#    #+#              *
-*    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########.fr        *
+*    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########lyon.fr    *
 *                                                                              *
 ********************************************************************************
 
@@ -55,10 +55,32 @@ const genericTemplate101 = `
 ********************************************************************************
 `.substring(1);
 
+const genericTemplate42p = `
+********************************************************************************
+*                                                                              *
+*                                                         :::      ::::::::    *
+*    $FILENAME__________________________________        :+:      :+:    :+:    *
+*                                                     +:+ +:+         +:+      *
+*    By: $AUTHOR________________________________    +#+  +:+       +#+         *
+*                                                 +#+#+#+#+#+   +#+            *
+*    Created: $CREATEDAT_________ by $CREATEDBY_       #+#    #+#              *
+*    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########.fr        *
+*                                                                              *
+********************************************************************************
 
-if (getCurrentVersion() == '42')
+`.substring(1);
+
+if (getCurrentVersion() == 'lyon' || getCurrentVersion() == 'Lyon' || getCurrentVersion() == 'LYON' ||
+   getCurrentVersion() == '42lyon' || getCurrentVersion() == '42Lyon' || getCurrentVersion() == '42LYON' ||
+   getCurrentVersion() == '42 LYON' || getCurrentVersion() == '42 Lyon' || getCurrentVersion() == '42 lyon')
 {
     var genericTemplate = genericTemplate42;
+}
+else if (getCurrentVersion() == 'paris' || getCurrentVersion() == 'Paris' || getCurrentVersion() == 'PARIS' ||
+    getCurrentVersion() == '42paris' || getCurrentVersion() == '42Paris' || getCurrentVersion() == '42PARIS' ||
+    getCurrentVersion() == '42 paris' || getCurrentVersion() == '42 Paris' || getCurrentVersion() == '42 PARIS')
+{
+  var genericTemplate = genericTemplate42p;
 }
 else
 {
