@@ -8,16 +8,15 @@ This extension provides the 101 header integration in VS Code.
 
 ```bash
 # **************************************************************************** #
-#                                                           LE - /             #
-#                                                               /              #
-#    test.s                                           .::    .:/ .      .::    #
-#                                                  +:+:+   +:    +:  +:+:+     #
-#    By: frfrey <marvin@le-101.fr>                  +:+   +:    +:    +:+      #
-#                                                  #+#   #+    #+    #+#       #
-#    Created: 2020/01/17 15:31:37 by frfrey       #+#   ##    ##    #+#        #
-#    Updated: 2020/01/17 15:31:48 by frfrey      ###    #+. /#+    ###.fr      #
-#                                                          /                   #
-#                                                         /                    #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    test.bash                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: frfrey <frfrey@student.le-101.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/02/11 15:13:55 by frfrey            #+#    #+#              #
+#    Updated: 2020/02/11 15:13:56 by frfrey           ###   ########.fr        #
+#                                                                              #
 # **************************************************************************** #
 ```
 
@@ -27,7 +26,7 @@ Launch Quick Open with <kbd>⌘</kbd>+<kbd>P</kbd> and enter
 ```
 ext install 101header
 ```
-
+###For use header of 101 take version 0.1.4
 
 ## Usage
 
@@ -58,6 +57,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 
 ## Release Notes
+
+### 0.2.0
+Add new Header for 42
 
 ### 0.1.3 / 0.1.4
 Add language html, modify header for php

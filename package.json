@@ -1,8 +1,8 @@
 {
   "name": "101header2019",
-  "displayName": "101 Header 2019",
-  "description": "101 header for VSCode : www.le-101.fr",
-  "version": "0.1.4",
+  "displayName": "42/101 Header 2019",
+  "description": "42/101 header for VSCode : www.le-101.fr",
+  "version": "0.2.0",
   "publisher": "frfrey",
   "icon": "101.png",
   "repository": {
