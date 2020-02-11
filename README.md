@@ -18,6 +18,7 @@ This extension provides the 101 header integration in VS Code.
 #    Updated: 2020/02/11 17:29:24 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
+
 ```
 
 ## Install
@@ -43,6 +44,7 @@ Default values for **username** and **email** are imported from environment vari
 Default values for **header** is 101 you can modify in setting
 use "101header.version":
 
+### Don't forget reload vs_code after change params
 
 ```Name avaible for header
   {
