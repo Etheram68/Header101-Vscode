@@ -37,7 +37,7 @@
         },
         "101header.version": {
           "type": "string",
-          "description": "Version of header your use read Readme"
+          "description": "Header Versions insert Lyon or Paris. Use '>Developer: Reload Window' for apply change"
         }
       }
     },
