@@ -56,6 +56,7 @@ use "101header.version":
           101
   }
 ```
+After change <kbd>⌘</kbd>+<kbd>P</kbd> and enter '>Developer: Reload Window'
 
 To override these values, specify these properties in *User Settings* :
 
@@ -75,12 +76,13 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
-### 0.2.3
+### 0.2.4
+Add message warning restart with '>Developer: Reload Window' after change setting version.
+
+### 0.2.2 / 0.2.3
 You can choose your header version in Setting extension Version
 Add header for Paris and New header for Lyon
 You can choice header
-
-### 0.2.2
 Add new skin for header 42
 
 ### 0.2.1
