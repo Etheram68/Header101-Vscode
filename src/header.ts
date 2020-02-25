@@ -70,11 +70,9 @@ const genericTemplate42p = `
 
 `.substring(1);
 
-if (getCurrentVersion() == 'lyon' || getCurrentVersion() == 'Lyon' || getCurrentVersion() == 'LYON' ||
-   getCurrentVersion() == '42lyon' || getCurrentVersion() == '42Lyon' || getCurrentVersion() == '42LYON' ||
-   getCurrentVersion() == '42 LYON' || getCurrentVersion() == '42 Lyon' || getCurrentVersion() == '42 lyon')
+if (getCurrentVersion() == '101')
 {
-    var genericTemplate = genericTemplate42;
+    var genericTemplate = genericTemplate101;
 }
 else if (getCurrentVersion() == 'paris' || getCurrentVersion() == 'Paris' || getCurrentVersion() == 'PARIS' ||
     getCurrentVersion() == '42paris' || getCurrentVersion() == '42Paris' || getCurrentVersion() == '42PARIS' ||
@@ -84,7 +82,7 @@ else if (getCurrentVersion() == 'paris' || getCurrentVersion() == 'Paris' || get
 }
 else
 {
-    var genericTemplate = genericTemplate101;
+    var genericTemplate = genericTemplate42;
 }
 /**
  * Get specific header template for languageId

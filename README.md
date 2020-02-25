@@ -48,12 +48,12 @@ use "101header.version":
 
 ```Name avaible for header
   {
-    Lyon :
-          lyon, Lyon, LYON, 42lyon, 42Lyon, 42LYON, 42 Lyon, 42 lyon, 42 LYON
+    Lyon 101 :
+          101
     Paris:
           paris, Paris, PARIS, 42paris, 42Paris, 42PARIS, 42 Paris, 42 paris, 42 PARIS
     Default:
-          101
+          42 Lyon
   }
 ```
 After change <kbd>⌘</kbd>+<kbd>P</kbd> and enter '>Developer: Reload Window'
@@ -75,6 +75,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 
 ## Release Notes
+
+### 0.2.5
+New header of Lyon is now a default Header, you can use header 101 with a "101" in setting
 
 ### 0.2.4
 Add message warning restart with '>Developer: Reload Window' after change setting version.
