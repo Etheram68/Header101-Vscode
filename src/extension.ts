@@ -24,7 +24,7 @@ const getCurrentUser = () =>
  */
 const getCurrentUserMail = () =>
   vscode.workspace.getConfiguration()
-    .get('101header.email') || `${getCurrentUser()}@student.le-101.fr`
+    .get('101header.email') || `${getCurrentUser()}@student.42lyon.fr`
 
 const getCurrentVersion = () =>
   vscode.workspace.getConfiguration()

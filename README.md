@@ -76,6 +76,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
+### 0.2.6
+Modify Mail user for 42 Lyon
+
 ### 0.2.5
 New header of Lyon is now a default Header, you can use header 101 with a "101" in setting
 

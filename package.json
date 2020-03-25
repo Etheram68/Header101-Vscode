@@ -2,7 +2,7 @@
   "name": "101header2019",
   "displayName": "42/101 Header 2019",
   "description": "42/101 header for VSCode : www.le-101.fr",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "publisher": "frfrey",
   "icon": "101.png",
   "repository": {
@@ -70,6 +70,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "vsce": "^1.74.0"
   }
 }
