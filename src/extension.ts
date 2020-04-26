@@ -19,6 +19,7 @@ const getCurrentUser = () =>
   vscode.workspace.getConfiguration()
     .get('101header.username') || process.env['USER'] || 'aviscogl'
 
+var is_first = 0
 /**
  * Return current user mail from config or default value
  */
@@ -86,9 +87,13 @@ const insertHeaderHandler = () => {
     vscode.window.showInformationMessage(
       `No header support for language ${document.languageId}`
     )
-  vscode.window.showInformationMessage(
-    `You can choose your header version in Setting "101header.version"!!!`
-  )
+  if (is_first == 0)
+  {
+    vscode.window.showInformationMessage(
+      `You can choose your header version in Setting "101header.version"!!!`
+    )
+    is_first = 1;
+  }
 }
 
 /**

@@ -76,6 +76,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
+### 0.2.7
+Print only firt time of extension is use message for modify header
+
 ### 0.2.6
 Modify Mail user for 42 Lyon
 
