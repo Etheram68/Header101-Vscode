@@ -10,12 +10,12 @@ This extension provides the 101 header integration in VS Code.
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    test.bash                                          :+:      :+:    :+:    #
+#    test.sh                                            :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: frfrey <frfrey@student.le-101.fr>          +#+  +:+       +#+         #
+#    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/11 17:29:23 by frfrey            #+#    #+#              #
-#    Updated: 2020/02/11 17:29:24 by frfrey           ###   ########lyon.fr    #
+#    Created: 2020/04/26 19:02:28 by frfrey            #+#    #+#              #
+#    Updated: 2020/04/26 19:02:29 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,8 +76,8 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
-### 0.2.7
-Print only firt time of extension is use message for modify header
+### 0.2.7 / 0.2.8
+Remove Message
 
 ### 0.2.6
 Modify Mail user for 42 Lyon
