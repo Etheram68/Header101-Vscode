@@ -4,7 +4,7 @@
   "description": "42/101 header for VSCode : www.le-101.fr",
   "version": "0.2.8",
   "publisher": "frfrey",
-  "icon": "101.png",
+  "icon": "logo-42.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Etheram68/Header101-Vscode/"
@@ -29,11 +29,11 @@
       "properties": {
         "101header.username": {
           "type": "string",
-          "description": "Username to use in 101 headers"
+          "description": "Username to use in 42 headers"
         },
         "101header.email": {
           "type": "string",
-          "description": "Email address to use in 101 headers"
+          "description": "Email address to use in 42 headers"
         },
         "101header.version": {
           "type": "string",
@@ -44,7 +44,7 @@
     "commands": [
       {
         "command": "101header.insertHeader",
-        "title": "Insert 101 header",
+        "title": "Insert 42 header",
         "when": "editorTextFocus"
       }
     ],

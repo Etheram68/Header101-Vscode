@@ -1,8 +1,8 @@
 <img
-  src="https://raw.githubusercontent.com/AlexisVisco/vscode-101header/master/101.png"
+  src="https://raw.githubusercontent.com/Etheram68/Header101-Vscode/master/logo-42.png"
   width=128>
 
-# 101 Header for VSCode
+# 42 Lyon/Paris Header for VSCode
 
 This extension provides the 101 header integration in VS Code.
 
