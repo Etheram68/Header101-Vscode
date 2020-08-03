@@ -76,7 +76,7 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
-### 0.2.7 / 0.2.8
+### 0.2.7 / 0.2.9
 Remove Message
 
 ### 0.2.6
