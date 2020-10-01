@@ -1,8 +1,8 @@
 {
   "name": "101header2019",
-  "displayName": "42/101 Header 2019",
-  "description": "42/101 header for VSCode : www.le-101.fr",
-  "version": "0.3.1",
+  "displayName": "42/101 Header 2020",
+  "description": "42/101 header for VSCode : https://www.42lyon.fr/",
+  "version": "0.3.3",
   "publisher": "frfrey",
   "icon": "logo-42.png",
   "repository": {
@@ -27,15 +27,15 @@
   "contributes": {
     "configuration": {
       "properties": {
-        "101header.username": {
+        "42header.username": {
           "type": "string",
           "description": "Username to use in 42 headers"
         },
-        "101header.email": {
+        "42header.email": {
           "type": "string",
           "description": "Email address to use in 42 headers"
         },
-        "101header.version": {
+        "42header.version": {
           "type": "string",
           "description": "Header Versions insert Lyon or Paris. Use '>Developer: Reload Window' for apply change"
         }
@@ -43,14 +43,14 @@
     },
     "commands": [
       {
-        "command": "101header.insertHeader",
+        "command": "42header.insertHeader",
         "title": "Insert 42 header",
         "when": "editorTextFocus"
       }
     ],
     "keybindings": [
       {
-        "command": "101header.insertHeader",
+        "command": "42header.insertHeader",
         "key": "ctrl+alt+h",
         "mac": "cmd+alt+h",
         "when": "editorTextFocus"

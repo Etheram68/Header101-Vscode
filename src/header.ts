@@ -20,7 +20,7 @@ export type HeaderInfo = {
 
 const getCurrentVersion = () =>
   vscode.workspace.getConfiguration()
-    .get('101header.version') || process.env['VERSION'] || 'aviscogl'
+    .get('42header.version') || process.env['VERSION'] || 'aviscogl'
 
 /**
  * Template where each field name is prefixed by $ and is padded with _

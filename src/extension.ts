@@ -17,18 +17,18 @@ import {
  */
 const getCurrentUser = () =>
   vscode.workspace.getConfiguration()
-    .get('101header.username') || process.env['USER'] || 'aviscogl'
+    .get('42header.username') || process.env['USER'] || 'aviscogl'
 
 /**
  * Return current user mail from config or default value
  */
 const getCurrentUserMail = () =>
   vscode.workspace.getConfiguration()
-    .get('101header.email') || `${getCurrentUser()}@student.42lyon.fr`
+    .get('42header.email') || `${getCurrentUser()}@student.42lyon.fr`
 
 const getCurrentVersion = () =>
   vscode.workspace.getConfiguration()
-    .get('101header.version') || process.env['VERSION'] || 'aviscogl'
+    .get('42header.version') || process.env['VERSION'] || 'aviscogl'
 
 /**
  * Update HeaderInfo with last update author and date, and update filename
@@ -118,7 +118,7 @@ const startUpdateOnSaveWatcher = (subscriptions: vscode.Disposable[]) =>
 
 export const activate = (context: vscode.ExtensionContext) => {
   const disposable = vscode.commands
-    .registerTextEditorCommand('101header.insertHeader', insertHeaderHandler)
+    .registerTextEditorCommand('42header.insertHeader', insertHeaderHandler)
 
   context.subscriptions.push(disposable)
   startUpdateOnSaveWatcher(context.subscriptions)

@@ -4,18 +4,19 @@
 
 # 42 Lyon/Paris Header for VSCode
 
-This extension provides the 101 header integration in VS Code.
+This extension provides the 42 Lyon / Paris header integration in VS Code.
 
 ```bash
+
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    test.sh                                            :+:      :+:    :+:    #
+#    test                                               :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/04/26 19:02:28 by frfrey            #+#    #+#              #
-#    Updated: 2020/04/26 19:02:29 by frfrey           ###   ########lyon.fr    #
+#    Created: 2020/10/01 14:57:06 by frfrey            #+#    #+#              #
+#    Updated: 2020/10/01 14:57:07 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +26,7 @@ This extension provides the 101 header integration in VS Code.
 
 Launch Quick Open with <kbd>⌘</kbd>+<kbd>P</kbd> and enter
 ```
-ext install 101header
+ext install 101header2019
 ```
 
 ## Usage
@@ -41,12 +42,12 @@ Header is automatically updated on save.
 
 Default values for **username** and **email** are imported from environment variables.
 
-Default values for **header** is 101 you can modify in setting
-use "101header.version":
+Default values for **header** is `42 Lyon` you can modify in setting
+use "42header.version":
 
 ### Don't forget reload vs_code after change params
 
-```Name avaible for header
+```Name avaible for template header
   {
     Lyon 101 :
           101
@@ -56,15 +57,18 @@ use "101header.version":
           42 Lyon
   }
 ```
-After change <kbd>⌘</kbd>+<kbd>P</kbd> and enter '>Developer: Reload Window'
+### After change
+
+**macOS** : <kbd>⌘</kbd>+<kbd>P</kbd> and enter '>Developer: Reload Window'
+**Linux** / **Windows** : <kbd>Ctrl</kbd>+<kbd>P</kbd> and enter '>Developer: Reload Window'
 
 To override these values, specify these properties in *User Settings* :
 
 ```ts
 {
-  "101header.username": string,
-  "101header.email": string,
-  "101header.version": string
+  "42header.username": string,
+  "42header.email": string,
+  "42header.version": string
 }
 ```
 
@@ -76,8 +80,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
-### 0.3.1
-Update Security
+### 0.3.1 / 0.3.3
+Update Security And modify Readme.md and modify Name of setting
+`Le 101` is now `42 Lyon`
 
 ### 0.3.0
 Update Security
