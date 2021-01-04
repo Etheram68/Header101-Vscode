@@ -80,6 +80,9 @@ To report a bug or ask for a feature, please open a [Github issue](https://githu
 
 ## Release Notes
 
+### 0.3.4
+Update Header delimiter for language ASM
+
 ### 0.3.1 / 0.3.3
 Update Security And modify Readme.md and modify Name of setting
 `Le 101` is now `42 Lyon`
