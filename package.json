@@ -70,7 +70,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vsce": "^1.74.0"
   }
 }
